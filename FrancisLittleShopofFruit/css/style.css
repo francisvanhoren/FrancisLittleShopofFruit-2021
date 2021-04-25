@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+*
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  opacity: 0.2;
+}
+
+Body {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(200, 200, 200, 1);
+
+}
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  
+  
+}
+.container-row{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#carouselBasicExample {
+  margin-top: 20px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.carousel .carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 150px;
+}
+.form-aantal {
+  max-width: 75px;
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+}
+
+form {
+  margin: 50px 500px 50px 20px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
